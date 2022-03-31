@@ -110,7 +110,7 @@ plt.plot(degrees, poly_test_errors, label='Test')
 plt.xticks(degrees)
 plt.legend(loc='upper left')
 
-plt.xlabel('Layers')
+plt.xlabel('Degrees')
 plt.ylabel('Loss')
 plt.title('Train vs validation vs test loss')
 plt.show()
